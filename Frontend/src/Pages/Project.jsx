@@ -9,7 +9,6 @@ import {
   Sparkles,
   ArrowRight,
   ExternalLink,
-
   X,
   Star,
   CheckCircle2,
@@ -24,7 +23,7 @@ import {
   Layers,
   ShieldCheck,
 } from "lucide-react";
-import {  FaGithub, } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const CATEGORIES = [
   "All",
@@ -142,44 +141,8 @@ const PROJECTS = [
       "Lighthouse performance score of 98+",
     ],
   },
-  {
-    id: "school-management",
-    title: "School Management System",
-    category: "Web Applications",
-    description:
-      "A unified platform for admissions, attendance, grading, and parent communication across an 8-campus school network.",
-    tech: ["React", "Express.js", "MongoDB", "JWT"],
-    date: "Nov 2024",
-    client: "Meridian Schools Group",
-    duration: "20 weeks",
-    live: "#",
-    github: "#",
-    features: [
-      "Role-based portals for admins, teachers & parents",
-      "Automated attendance & report-card generation",
-      "In-app messaging between staff and guardians",
-      "Fee tracking with automated payment reminders",
-    ],
-  },
-  {
-    id: "hospital-management",
-    title: "Hospital Management System",
-    category: "Web Applications",
-    description:
-      "A HIPAA-conscious system streamlining patient records, appointment scheduling, and inter-department coordination.",
-    tech: ["React", "Node.js", "PostgreSQL", "Socket.io"],
-    date: "Sep 2024",
-    client: "Cascade General Hospital",
-    duration: "22 weeks",
-    live: "#",
-    github: "#",
-    features: [
-      "Unified electronic health records",
-      "Real-time bed & staff availability tracking",
-      "Automated appointment scheduling & reminders",
-      "Secure role-based access for clinical staff",
-    ],
-  },
+  
+    
   {
     id: "restaurant-website",
     title: "Restaurant Website",
@@ -218,25 +181,7 @@ const PROJECTS = [
       "Agent dashboard for listing management",
     ],
   },
-  {
-    id: "crm-dashboard",
-    title: "CRM Dashboard",
-    category: "Dashboard",
-    description:
-      "A pipeline-first CRM giving sales teams a single view of leads, deals, and forecasted revenue.",
-    tech: ["React", "TypeScript", "Node.js", "PostgreSQL"],
-    date: "Feb 2025",
-    client: "Northbeam Sales",
-    duration: "12 weeks",
-    live: "#",
-    github: "#",
-    features: [
-      "Drag-and-drop deal pipeline",
-      "Automated lead scoring & follow-up tasks",
-      "Revenue forecasting with cohort breakdowns",
-      "Two-way email sync per contact",
-    ],
-  },
+  
   {
     id: "portfolio-website",
     title: "Portfolio Website",
@@ -256,25 +201,7 @@ const PROJECTS = [
       "Sub-1.5s first contentful paint",
     ],
   },
-  {
-    id: "finance-dashboard",
-    title: "Finance Dashboard",
-    category: "Dashboard",
-    description:
-      "A personal-finance analytics dashboard turning raw transaction data into clear, actionable spending insights.",
-    tech: ["React", "TypeScript", "Node.js"],
-    date: "Oct 2024",
-    client: "Ledgerly",
-    duration: "10 weeks",
-    live: "#",
-    github: "#",
-    features: [
-      "Automated categorization of transactions",
-      "Custom budget alerts & spending trends",
-      "Multi-account net-worth tracking",
-      "Exportable monthly financial reports",
-    ],
-  },
+  
   {
     id: "fintech-mobile-app",
     title: "FinTech Mobile App",
@@ -294,25 +221,7 @@ const PROJECTS = [
       "Push alerts for unusual account activity",
     ],
   },
-  {
-    id: "brand-identity-system",
-    title: "Brand Identity System",
-    category: "Branding",
-    description:
-      "A full visual identity — logo system, type scale, and component library — for a climate-tech startup's launch.",
-    tech: ["Figma", "Illustrator", "Design Tokens"],
-    date: "Jun 2024",
-    client: "Verdant Energy",
-    duration: "7 weeks",
-    live: "#",
-    github: "#",
-    features: [
-      "Logo system with 4 responsive lockups",
-      "Full type & color token library",
-      "Illustration language for marketing surfaces",
-      "60-page brand guideline document",
-    ],
-  },
+  
 ];
 
 const TECH_STACK = [
